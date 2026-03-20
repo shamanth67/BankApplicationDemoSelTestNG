@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-BankingAccountTestSuite" class="navigator-link">
+              <span class="suite-name border-passed">BankingAccountTestSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-BankingAccountTestSuite" class="navigator-link ">
+                    <span>C:\Users\shama\eclipse-workspace\NewFramework\BankingAccountWithTestNG\src\test\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-BankingAccountTestSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-BankingAccountTestSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-BankingAccountTestSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-BankingAccountTestSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-BankingAccountTestSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-BankingAccountTestSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-BankingAccountTestSuite" class="hide-methods passed suite-BankingAccountTestSuite"> (hide)</a> <!-- hide-methods passed suite-BankingAccountTestSuite -->
+                      <a href="#" panel-name="suite-BankingAccountTestSuite" class="show-methods passed suite-BankingAccountTestSuite"> (show)</a> <!-- show-methods passed suite-BankingAccountTestSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-BankingAccountTestSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BankingAccountTestSuite" title="com.bankingaccount.tests.AddAccountTest" class="method navigator-link" hash-for-method="VerifyAddCustomersPageElements">VerifyAddCustomersPageElements</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BankingAccountTestSuite" title="com.bankingaccount.tests.OpenAccountTest" class="method navigator-link" hash-for-method="errorMessageIsDisplayedWhenSubmittingEmptyForm(Tester, User, 123456)">errorMessageIsDisplayedWhenSubmittingEmptyForm(Tester, User, 123456)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BankingAccountTestSuite" title="com.bankingaccount.tests.OpenAccountTest" class="method navigator-link" hash-for-method="openAccountSuccessfully(Tester, User, 123456, Tester User, Dollar)">openAccountSuccessfully(Tester, User, 123456, Tester User, Dollar)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BankingAccountTestSuite" title="com.bankingaccount.tests.AddAccountTest" class="method navigator-link" hash-for-method="verfyAddCustomerSuccessfully(Tester, User, 123456)">verfyAddCustomerSuccessfully(Tester, User, 123456)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BankingAccountTestSuite" title="com.bankingaccount.tests.HomePageTest" class="method navigator-link" hash-for-method="verifyBankManagerLoginButtonFunctionality">verifyBankManagerLoginButtonFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BankingAccountTestSuite" title="com.bankingaccount.tests.HomePageTest" class="method navigator-link" hash-for-method="verifyCustomerLoginButtonFunctionality">verifyCustomerLoginButtonFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BankingAccountTestSuite" title="com.bankingaccount.tests.HomePageTest" class="method navigator-link" hash-for-method="verifyHomePageButtons">verifyHomePageButtons</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BankingAccountTestSuite" title="com.bankingaccount.tests.OpenAccountTest" class="method navigator-link" hash-for-method="verifyOpenAccountPageElements(Tester, User, 123456)">verifyOpenAccountPageElements(Tester, User, 123456)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BankingAccountTestSuite" title="com.bankingaccount.tests.AddAccountTest" class="method navigator-link" hash-for-method="verifyTheErrorMessageIsDisplayedWhenSubmittingEmptyForm">verifyTheErrorMessageIsDisplayedWhenSubmittingEmptyForm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-BankingAccountTestSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-BankingAccountTestSuite" class="panel BankingAccountTestSuite">
+          <div class="suite-BankingAccountTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bankingaccount.tests.OpenAccountTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="errorMessageIsDisplayedWhenSubmittingEmptyForm(Tester, User, 123456)">
+                  </a> <!-- errorMessageIsDisplayedWhenSubmittingEmptyForm(Tester, User, 123456) -->
+                  <span class="method-name">errorMessageIsDisplayedWhenSubmittingEmptyForm</span>
+                  <span class="parameters">(Tester,User,123456)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openAccountSuccessfully(Tester, User, 123456, Tester User, Dollar)">
+                  </a> <!-- openAccountSuccessfully(Tester, User, 123456, Tester User, Dollar) -->
+                  <span class="method-name">openAccountSuccessfully</span>
+                  <span class="parameters">(Tester,User,123456,Tester User,Dollar)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyOpenAccountPageElements(Tester, User, 123456)">
+                  </a> <!-- verifyOpenAccountPageElements(Tester, User, 123456) -->
+                  <span class="method-name">verifyOpenAccountPageElements</span>
+                  <span class="parameters">(Tester,User,123456)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BankingAccountTestSuite-class-passed -->
+          <div class="suite-BankingAccountTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bankingaccount.tests.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBankManagerLoginButtonFunctionality">
+                  </a> <!-- verifyBankManagerLoginButtonFunctionality -->
+                  <span class="method-name">verifyBankManagerLoginButtonFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCustomerLoginButtonFunctionality">
+                  </a> <!-- verifyCustomerLoginButtonFunctionality -->
+                  <span class="method-name">verifyCustomerLoginButtonFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHomePageButtons">
+                  </a> <!-- verifyHomePageButtons -->
+                  <span class="method-name">verifyHomePageButtons</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BankingAccountTestSuite-class-passed -->
+          <div class="suite-BankingAccountTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bankingaccount.tests.AddAccountTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyAddCustomersPageElements">
+                  </a> <!-- VerifyAddCustomersPageElements -->
+                  <span class="method-name">VerifyAddCustomersPageElements</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verfyAddCustomerSuccessfully(Tester, User, 123456)">
+                  </a> <!-- verfyAddCustomerSuccessfully(Tester, User, 123456) -->
+                  <span class="method-name">verfyAddCustomerSuccessfully</span>
+                  <span class="parameters">(Tester,User,123456)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTheErrorMessageIsDisplayedWhenSubmittingEmptyForm">
+                  </a> <!-- verifyTheErrorMessageIsDisplayedWhenSubmittingEmptyForm -->
+                  <span class="method-name">verifyTheErrorMessageIsDisplayedWhenSubmittingEmptyForm</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BankingAccountTestSuite-class-passed -->
+        </div> <!-- panel BankingAccountTestSuite -->
+        <div panel-name="test-xml-BankingAccountTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\shama\eclipse-workspace\NewFramework\BankingAccountWithTestNG\src\test\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;BankingAccountTestSuite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.bankingaccount.listeners.TestListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;BankingAccountTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.bankingaccount.tests.AddAccountTest&quot;/&gt;
+      &lt;class name=&quot;com.bankingaccount.tests.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;com.bankingaccount.tests.OpenAccountTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BankingAccountTest --&gt;
+&lt;/suite&gt; &lt;!-- BankingAccountTestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-BankingAccountTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for BankingAccountTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">BankingAccountTest (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-BankingAccountTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for BankingAccountTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-BankingAccountTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for BankingAccountTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_BankingAccountTestSuite');
+function tableData_BankingAccountTestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'openAccountSuccessfully')
+data.setCell(0, 2, 'com.bankingaccount.tests.OpenAccountTest')
+data.setCell(0, 3, 4054);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'errorMessageIsDisplayedWhenSubmittingEmptyForm')
+data.setCell(1, 2, 'com.bankingaccount.tests.OpenAccountTest')
+data.setCell(1, 3, 3069);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyOpenAccountPageElements')
+data.setCell(2, 2, 'com.bankingaccount.tests.OpenAccountTest')
+data.setCell(2, 3, 2864);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verfyAddCustomerSuccessfully')
+data.setCell(3, 2, 'com.bankingaccount.tests.AddAccountTest')
+data.setCell(3, 3, 2366);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyTheErrorMessageIsDisplayedWhenSubmittingEmptyForm')
+data.setCell(4, 2, 'com.bankingaccount.tests.AddAccountTest')
+data.setCell(4, 3, 2295);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'VerifyAddCustomersPageElements')
+data.setCell(5, 2, 'com.bankingaccount.tests.AddAccountTest')
+data.setCell(5, 3, 2138);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyBankManagerLoginButtonFunctionality')
+data.setCell(6, 2, 'com.bankingaccount.tests.HomePageTest')
+data.setCell(6, 3, 1172);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyCustomerLoginButtonFunctionality')
+data.setCell(7, 2, 'com.bankingaccount.tests.HomePageTest')
+data.setCell(7, 3, 1157);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyHomePageButtons')
+data.setCell(8, 2, 'com.bankingaccount.tests.HomePageTest')
+data.setCell(8, 3, 893);
+window.suiteTableData['BankingAccountTestSuite']= { tableData: data, tableDiv: 'times-div-BankingAccountTestSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 20 seconds</span>
+              <div id="times-div-BankingAccountTestSuite">
+              </div> <!-- times-div-BankingAccountTestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-BankingAccountTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for BankingAccountTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-BankingAccountTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">2 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.bankingaccount.tests.OpenAccountTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">loadConfiguration</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.bankingaccount.tests.HomePageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">loadConfiguration</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-BankingAccountTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bankingaccount.tests.AddAccountTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">loadConfiguration</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">660 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpPages</span>
+                <span class="method-start">5963 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyAddCustomersPageElements</span>
+                <span class="method-start">5974 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">8344 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">10179 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpPages</span>
+                <span class="method-start">13090 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verfyAddCustomerSuccessfully(Tester, User, 123456)</span>
+                <span class="method-start">13092 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">15705 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">16018 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpPages</span>
+                <span class="method-start">18870 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTheErrorMessageIsDisplayedWhenSubmittingEmptyForm</span>
+                <span class="method-start">18874 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">21546 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bankingaccount.tests.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">21873 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpPages</span>
+                <span class="method-start">24501 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyBankManagerLoginButtonFunctionality</span>
+                <span class="method-start">24515 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">25834 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">26089 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpPages</span>
+                <span class="method-start">28534 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCustomerLoginButtonFunctionality</span>
+                <span class="method-start">28536 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">29856 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">30102 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpPages</span>
+                <span class="method-start">32338 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyHomePageButtons</span>
+                <span class="method-start">32343 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">33417 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bankingaccount.tests.OpenAccountTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">33724 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpPages</span>
+                <span class="method-start">35879 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">errorMessageIsDisplayedWhenSubmittingEmptyForm(Tester, User, 123456)</span>
+                <span class="method-start">35884 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">39283 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">39657 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpPages</span>
+                <span class="method-start">42467 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">openAccountSuccessfully(Tester, User, 123456, Tester User, Dollar)</span>
+                <span class="method-start">42468 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">46689 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">46987 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpPages</span>
+                <span class="method-start">49109 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyOpenAccountPageElements(Tester, User, 123456)</span>
+                <span class="method-start">49117 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">52113 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

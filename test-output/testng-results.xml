@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-19T21:34:08 IST" name="BankingAccountTestSuite" finished-at="2026-03-19T21:35:00 IST" duration-ms="52294">
+    <groups>
+    </groups>
+    <test started-at="2026-03-19T21:34:08 IST" name="BankingAccountTest" finished-at="2026-03-19T21:35:00 IST" duration-ms="52294">
+      <class name="com.bankingaccount.tests.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bankingaccount.tests.HomePageTest@484094a5]" started-at="2026-03-19T21:34:30 IST" name="setUp" finished-at="2026-03-19T21:34:33 IST" duration-ms="2628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpPages()[pri:0, instance:com.bankingaccount.tests.HomePageTest@484094a5]" started-at="2026-03-19T21:34:33 IST" name="setUpPages" finished-at="2026-03-19T21:34:33 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPages -->
+        <test-method signature="verifyBankManagerLoginButtonFunctionality()[pri:0, instance:com.bankingaccount.tests.HomePageTest@484094a5]" started-at="2026-03-19T21:34:33 IST" name="verifyBankManagerLoginButtonFunctionality" finished-at="2026-03-19T21:34:34 IST" duration-ms="1172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBankManagerLoginButtonFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bankingaccount.tests.HomePageTest@484094a5]" started-at="2026-03-19T21:34:34 IST" name="tearDown" finished-at="2026-03-19T21:34:34 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bankingaccount.tests.HomePageTest@484094a5]" started-at="2026-03-19T21:34:34 IST" name="setUp" finished-at="2026-03-19T21:34:37 IST" duration-ms="2443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpPages()[pri:0, instance:com.bankingaccount.tests.HomePageTest@484094a5]" started-at="2026-03-19T21:34:37 IST" name="setUpPages" finished-at="2026-03-19T21:34:37 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPages -->
+        <test-method signature="verifyCustomerLoginButtonFunctionality()[pri:0, instance:com.bankingaccount.tests.HomePageTest@484094a5]" started-at="2026-03-19T21:34:37 IST" name="verifyCustomerLoginButtonFunctionality" finished-at="2026-03-19T21:34:38 IST" duration-ms="1157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCustomerLoginButtonFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bankingaccount.tests.HomePageTest@484094a5]" started-at="2026-03-19T21:34:38 IST" name="tearDown" finished-at="2026-03-19T21:34:38 IST" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bankingaccount.tests.HomePageTest@484094a5]" started-at="2026-03-19T21:34:38 IST" name="setUp" finished-at="2026-03-19T21:34:40 IST" duration-ms="2236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpPages()[pri:0, instance:com.bankingaccount.tests.HomePageTest@484094a5]" started-at="2026-03-19T21:34:40 IST" name="setUpPages" finished-at="2026-03-19T21:34:40 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPages -->
+        <test-method signature="verifyHomePageButtons()[pri:0, instance:com.bankingaccount.tests.HomePageTest@484094a5]" started-at="2026-03-19T21:34:40 IST" name="verifyHomePageButtons" finished-at="2026-03-19T21:34:41 IST" duration-ms="893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageButtons -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bankingaccount.tests.HomePageTest@484094a5]" started-at="2026-03-19T21:34:42 IST" name="tearDown" finished-at="2026-03-19T21:34:42 IST" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bankingaccount.tests.HomePageTest -->
+      <class name="com.bankingaccount.tests.OpenAccountTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bankingaccount.tests.OpenAccountTest@38234a38]" started-at="2026-03-19T21:34:42 IST" name="setUp" finished-at="2026-03-19T21:34:44 IST" duration-ms="2154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpPages()[pri:0, instance:com.bankingaccount.tests.OpenAccountTest@38234a38]" started-at="2026-03-19T21:34:44 IST" name="setUpPages" finished-at="2026-03-19T21:34:44 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPages -->
+        <test-method signature="errorMessageIsDisplayedWhenSubmittingEmptyForm(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.bankingaccount.tests.OpenAccountTest@38234a38]" started-at="2026-03-19T21:34:44 IST" name="errorMessageIsDisplayedWhenSubmittingEmptyForm" data-provider="customerDetails" finished-at="2026-03-19T21:34:47 IST" duration-ms="3069" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tester]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[User]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errorMessageIsDisplayedWhenSubmittingEmptyForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bankingaccount.tests.OpenAccountTest@38234a38]" started-at="2026-03-19T21:34:47 IST" name="tearDown" finished-at="2026-03-19T21:34:48 IST" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bankingaccount.tests.OpenAccountTest@38234a38]" started-at="2026-03-19T21:34:48 IST" name="setUp" finished-at="2026-03-19T21:34:51 IST" duration-ms="2810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpPages()[pri:0, instance:com.bankingaccount.tests.OpenAccountTest@38234a38]" started-at="2026-03-19T21:34:51 IST" name="setUpPages" finished-at="2026-03-19T21:34:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPages -->
+        <test-method signature="openAccountSuccessfully(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.bankingaccount.tests.OpenAccountTest@38234a38]" started-at="2026-03-19T21:34:51 IST" name="openAccountSuccessfully" data-provider="openAccountDetails" finished-at="2026-03-19T21:34:55 IST" duration-ms="4054" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tester]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[User]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Tester User]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Dollar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccountSuccessfully -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bankingaccount.tests.OpenAccountTest@38234a38]" started-at="2026-03-19T21:34:55 IST" name="tearDown" finished-at="2026-03-19T21:34:55 IST" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bankingaccount.tests.OpenAccountTest@38234a38]" started-at="2026-03-19T21:34:55 IST" name="setUp" finished-at="2026-03-19T21:34:57 IST" duration-ms="2121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpPages()[pri:0, instance:com.bankingaccount.tests.OpenAccountTest@38234a38]" started-at="2026-03-19T21:34:57 IST" name="setUpPages" finished-at="2026-03-19T21:34:57 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPages -->
+        <test-method signature="verifyOpenAccountPageElements(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.bankingaccount.tests.OpenAccountTest@38234a38]" started-at="2026-03-19T21:34:57 IST" name="verifyOpenAccountPageElements" data-provider="customerDetails" finished-at="2026-03-19T21:35:00 IST" duration-ms="2864" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tester]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[User]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOpenAccountPageElements -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bankingaccount.tests.OpenAccountTest@38234a38]" started-at="2026-03-19T21:35:00 IST" name="tearDown" finished-at="2026-03-19T21:35:00 IST" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bankingaccount.tests.OpenAccountTest -->
+      <class name="com.bankingaccount.tests.AddAccountTest">
+        <test-method is-config="true" signature="loadConfiguration()[pri:0, instance:com.bankingaccount.tests.AddAccountTest@3b96c42e]" started-at="2026-03-19T21:34:08 IST" name="loadConfiguration" finished-at="2026-03-19T21:34:08 IST" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfiguration -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bankingaccount.tests.AddAccountTest@3b96c42e]" started-at="2026-03-19T21:34:09 IST" name="setUp" finished-at="2026-03-19T21:34:14 IST" duration-ms="5301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpPages()[pri:0, instance:com.bankingaccount.tests.AddAccountTest@3b96c42e]" started-at="2026-03-19T21:34:14 IST" name="setUpPages" finished-at="2026-03-19T21:34:14 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPages -->
+        <test-method signature="VerifyAddCustomersPageElements()[pri:0, instance:com.bankingaccount.tests.AddAccountTest@3b96c42e]" started-at="2026-03-19T21:34:14 IST" name="VerifyAddCustomersPageElements" finished-at="2026-03-19T21:34:16 IST" duration-ms="2138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddCustomersPageElements -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bankingaccount.tests.AddAccountTest@3b96c42e]" started-at="2026-03-19T21:34:16 IST" name="tearDown" finished-at="2026-03-19T21:34:17 IST" duration-ms="459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bankingaccount.tests.AddAccountTest@3b96c42e]" started-at="2026-03-19T21:34:18 IST" name="setUp" finished-at="2026-03-19T21:34:21 IST" duration-ms="2911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpPages()[pri:0, instance:com.bankingaccount.tests.AddAccountTest@3b96c42e]" started-at="2026-03-19T21:34:21 IST" name="setUpPages" finished-at="2026-03-19T21:34:21 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPages -->
+        <test-method signature="verfyAddCustomerSuccessfully(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.bankingaccount.tests.AddAccountTest@3b96c42e]" started-at="2026-03-19T21:34:21 IST" name="verfyAddCustomerSuccessfully" data-provider="customerDetails" finished-at="2026-03-19T21:34:24 IST" duration-ms="2366" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tester]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[User]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfyAddCustomerSuccessfully -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bankingaccount.tests.AddAccountTest@3b96c42e]" started-at="2026-03-19T21:34:24 IST" name="tearDown" finished-at="2026-03-19T21:34:24 IST" duration-ms="311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bankingaccount.tests.AddAccountTest@3b96c42e]" started-at="2026-03-19T21:34:24 IST" name="setUp" finished-at="2026-03-19T21:34:27 IST" duration-ms="2850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpPages()[pri:0, instance:com.bankingaccount.tests.AddAccountTest@3b96c42e]" started-at="2026-03-19T21:34:27 IST" name="setUpPages" finished-at="2026-03-19T21:34:27 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPages -->
+        <test-method signature="verifyTheErrorMessageIsDisplayedWhenSubmittingEmptyForm()[pri:0, instance:com.bankingaccount.tests.AddAccountTest@3b96c42e]" started-at="2026-03-19T21:34:27 IST" name="verifyTheErrorMessageIsDisplayedWhenSubmittingEmptyForm" finished-at="2026-03-19T21:34:29 IST" duration-ms="2295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheErrorMessageIsDisplayedWhenSubmittingEmptyForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bankingaccount.tests.AddAccountTest@3b96c42e]" started-at="2026-03-19T21:34:30 IST" name="tearDown" finished-at="2026-03-19T21:34:30 IST" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bankingaccount.tests.AddAccountTest -->
+    </test> <!-- BankingAccountTest -->
+  </suite> <!-- BankingAccountTestSuite -->
+</testng-results>

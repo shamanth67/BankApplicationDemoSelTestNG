@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="BankingAccountTestSuite" >
+<listeners>
+<listener class-name="com.bankingaccount.listeners.TestListener"></listener>
+</listeners>
+<test name="BankingAccountTest">
+<classes>
+<class name="com.bankingaccount.tests.AddAccountTest" />
+<class name="com.bankingaccount.tests.HomePageTest" />
+<class name="com.bankingaccount.tests.OpenAccountTest" />
+</classes>
+</test>
+</suite>
